@@ -1,0 +1,27 @@
+body{
+  background-color: black;
+    }
+p{
+  color:green;
+  font-family: arial;
+  font-size: 25px;
+}
+div{
+  background:#E8E5E4;
+  font-family: arial;
+  font-size: 17px;
+  padding:20px;
+}
+.parrafo2{
+  color:blue;
+}
+.izquierdo{
+  margin-top: -10px;
+  color: black;
+  float: left;
+}
+.derecho{
+  margin-top: -10px;
+  color: black;
+  float: right;
+}

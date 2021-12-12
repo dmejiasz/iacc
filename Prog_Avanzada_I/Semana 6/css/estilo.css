@@ -1,0 +1,24 @@
+body{
+  background-color: skyblue;
+}
+label{
+  display: inline-block;
+  width: 80px;
+}
+.main-header{
+  background-color: #34495E;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.text-center{
+  text-align: center;
+}
+.product img{
+  width: 90px;
+}
+.card{
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0.0.0.0.12), 0 1px 2px rgba(0,0,0,0.24)
+}

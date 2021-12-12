@@ -1,0 +1,16 @@
+header{
+  background-color: #CC7722;
+  font-family: arial;
+  font-size: 25px;
+}
+
+img{
+  width:20%;
+  height:auto;
+  align-content: center;
+}
+@media screen and (max-width:800px){
+  #img2{
+    display: none;
+  }
+}

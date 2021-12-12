@@ -1,0 +1,35 @@
+body {
+ background: white url(images/logrado.png) n3o-repeat 0 0;
+ margin: 0;
+}
+h1 {
+ color: black;
+ font-style: italic;
+}
+h2 {
+ color: #717171;
+}
+p {
+ font: normal 100%/1.5 Helvetica, Arial, Sans-serif;
+ color: #313131;
+}
+.encabezado, .container, .contenedor{
+  padding: 1em 2em; /* Margenes para contenido de las paginas */
+}
+.container, .contenedor{
+  float: left; /* Alineación a la izquierda*/
+  /*box-sizing: border-box; /* Mantiene tamaño definido sin expandir mas */
+}
+.encabezado{
+  background-color: rgb(247, 220, 22);
+  height: 100px;
+}
+.contenedor{
+  width: 90%;
+}
+.post{
+  /*background-color: rgba(117, 255, 26, 0.46);*/
+  height: auto; /*100px;*/
+  margin-bottom: 1em; /* Equivale a 16px */
+  text-align: justify;
+}

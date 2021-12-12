@@ -1,0 +1,15 @@
+.principal{
+background:yellow;
+color:darkred;
+text-aling: center;
+}
+div [class= "col"] {
+border:1px;
+color:#0A0201;
+padding: 1em;
+}
+
+  th{
+      color:black;
+      text-align:center;
+    }

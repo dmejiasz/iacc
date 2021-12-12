@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi retail automotor LTDA</title>
+    <link rel="stylesheet" type="text/css" href="css/formato_formulario.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+
+  <div class="container mt-3">
+    <h2>Mi retail automotor LTDA</h2>
+    <br>
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#home">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu1">Imagenes de Nuestra Empresa</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#menu2">Quienes Somos</a>
+      </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div id="home" class="container tab-pane active"><br>
+        <h3>Bienvenidos</h3>
+        <h4>La empresa <strong>Mi retail automotor LTDA</strong>, es una pyme dedicada a la venta de repuestos de
+            autos, ubicada en Santiago y que ha tenido un crecimiento sostenido en los últimos 18 meses.<br><br>
+            A nuestra trayectoría queremos agradecer la fidelidad de los clientes, y por tal motivo hemos crecido
+            para satisfacer las necesidades de cada uno de ustedes, con mucho gusto los atenderemos.<br><br>
+            Pueden dejar sus datos para ponernos en contacto con ustedes y tambien de disfrutar de descuentos que
+            le tenemos preparado a nuestra clientela.
+        </h4>
+
+        <div class="contact_form">
+          <div class="formulario">
+            <h1>Formulario de contacto</h1>
+            <h3>Escríbenos y en breve nos contactaremos contigo</h3>
+            <form action="" method="post">
+              <p>
+                <label for="nombre" class="colocar_nombre">Nombre Completo
+                <span class="obligatorio">*</span>
+                </label>
+                <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre completo">
+              </p>
+              <p>
+                <label for="fecha" class="colocar_fecha">Fecha de nacimiento
+                <span class="obligatorio">*</span>
+                </label>
+                <input type="date" id="start" name="introducir_fecha"
+                       value="2021-10-01" min="1940-01-01" max="2021-01-01"
+                       required="obligatorio">
+              </p>
+              <p>
+                <label for="direccion" class="colocar_direcccion">Dirección
+                <span class="obligatorio">*</span>
+                </label>
+                <input type="direccion" name="introducir_direccion" id="fecha" required="obligatorio" placeholder="Escriba dirección">
+              </p>
+              <p>
+                <label for="telefono" class="colocar_telefono">Teléfono
+                <span class="obligatorio">*</span>
+                </label>
+                <input type="telefono" name="introducir_telefono" id="telefono" required="obligatorio" placeholder="Escribe tu teléfono">
+              </p>
+              <p>
+                <label for="email" class="colocar_email">Email
+                  <span class="obligatorio">*</span>
+                </label>
+                <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu email">
+              </p>
+              <p>
+                <label for="marca" class="colocar_marca">Marca vehículo
+                  <span class="obligatorio">*</span>
+                </label>
+                <input type="marca" name="introducir_marca" id="marca" required="obligatorio" placeholder="Escribe marca de vehículo">
+              </p>
+              <p>
+                <label for="modelo" class="colocar_modelo">Modelo vehículo
+                  <span class="obligatorio">*</span>
+                </label>
+                <input type="modelo" name="introducir_modelo" id="modelo" required="obligatorio" placeholder="Escribe modelo de vehículo">
+              </p>
+              <p>
+                <label for="mensaje" class="colocar_mensaje">Mensaje
+                <span class="obligatorio">*</span>
+                </label>
+                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
+              </p>
+
+              <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+              <p class="aviso">
+                <span class="obligatorio"> * </span>los campos son obligatorios.
+              </p>
+          </form>
+        </div>
+      </div>
+
+      </div>
+      <div id="menu1" class="container tab-pane fade"><br>
+        <h4>Trabajamos con todas las marcas del mercado, busca la tuya</h4>
+          <img src="images/marcas.png" class="rounded" width="304" height="236"><br><br>
+        <h4>Contamos con una variada gama de repuestos para tu vehiculo</h4>
+          <img src="images/repuestos_2.png" class="rounded" width="404" height="236"><br><br>
+        <h4>Siempre serás muy bien atentido por nuestros especialistas en repuestos</h4>
+          <img src="images/tienda.png" class="rounded" width="304" height="236"><br><br>
+      </div>
+      <div id="menu2" class="container tab-pane fade"><br>
+         <p align="center">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/_u0bH9joTfg"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </p>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

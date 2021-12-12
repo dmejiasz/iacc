@@ -1,0 +1,30 @@
+.borde {
+border-color: blue;
+border-width: 1px;
+border-style: double;
+}
+h2{
+  color:rgba(20,180,170,0.8);
+}
+h3, em{
+  color:blue;
+}
+p{
+  font-weight: 550;
+  font-family: Times new roman;
+  font-size: 18px;
+}
+.estilo1{
+  color: red;
+  font-size: 18px;
+}
+.estilo2{
+  color:rgb(230, 200, 10);
+}
+.estilo3{
+  color: red;
+  text-decoration: underline red;
+}
+.estilo4{
+  color: blueviolet;
+}
