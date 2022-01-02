@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2 - Semana 4</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    var miVehiculo = new Object ();
+        miVehiculo.marca= "KIA";
+        miVehiculo.modelo= "Grand Carnival";
+        miVehiculo.color= "Gris";
+        miVehiculo.anho = 2008;
+        miVehiculo.direccion = "Manual";
+
+        function Mostrar_Contenido (){
+            alert("Contenido de miVehiculo.marca = "+miVehiculo.marca);
+            alert("Contenido de miVehiculo.modelo = "+miVehiculo.modelo);
+            alert("Contenido de miVehiculo.color = "+miVehiculo.color);
+            alert("Contenido de miVehiculo.anho = "+miVehiculo.anho);
+            alert("Contenido de miVehiculo.direccion = "+miVehiculo.direccion);
+        }
+    </script>
+</head>
+<body>
+    <br><br>
+    <button onclick="Mostrar_Contenido()" id="Mostrar">Mostrar contenido de Objeto miVehiculo()</button>
+</body>
+</html>

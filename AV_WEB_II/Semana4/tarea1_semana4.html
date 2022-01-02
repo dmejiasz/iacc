@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1 - Semana 4</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#Calcular").click(function(){
+            num_ingresado = $('input:text[name=numero_fn]').val();
+            //alert($('input:text[name=numero_fn]').val());
+            var minimo    = 1;
+            var resultado = 0;
+            do {
+                resultado += minimo; // resultado = resultado + numero
+                minimo++;
+            } while(minimo < num_ingresado);
+            alert("El resultado de la suma desde el 1 hasta el "+ num_ingresado +" es de : "+ resultado);
+        });
+    });
+    </script>
+</head>
+<body>
+    <input type="text" name="numero_fn" id="numero" required="obligatorio" placeholder="Ingrese un número">
+    <br><br>
+    <button id="Calcular">Calcular</button>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 3 - Semana 4</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+          var miElemento = $("#id_texto");
+          $("#salida").text("El contenido de id_texto es : " + miElemento[0].innerHTML);
+        });
+    </script>
+</head>
+<body>
+    <h2>Buscando elementos por Id</h2>
+    <p id="id_texto">Tarea 3 semana 4</p>
+    
+    <p id="salida"></p>
+</body>
+</html>

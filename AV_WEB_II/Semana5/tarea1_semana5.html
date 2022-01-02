@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tarea 1 - Semana 5</title>
+    <link rel="stylesheet" type="text/css" href="css/formato_formulario.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  </head>
+  <body>
+
+  <div class="container mt-3">
+        <div class="contact_form">
+          <div class="formulario">
+            <h1>Ingrese los datos de su Vehículo</h1>
+            <form action="" method="post">
+              <p>
+                <label for="marca" class="colocar_marca">Marca del Auto
+                <span class="obligatorio">*</span>
+                </label>
+                <input type="text" name="introducir_marca" id="marca" required="obligatorio" placeholder="Escribe marca del vehículo">
+              </p>
+              <p>
+                <label for="modelo" class="colocar_modelo">Modelo
+                <span class="obligatorio">*</span>
+                </label>
+                <input type="text" name="introducir_modelo" id="modelo" required="obligatorio" placeholder="Escribe marca del modelo">
+              </p>
+              <p>
+                <label for="anho" class="colocar_anho">Año de fabricación
+                <span class="obligatorio">*</span>
+                </label>
+                <input type="number" id="year" name="introducir_anho"
+                       value="2021" min="1940" max="2021"
+                       required="obligatorio">
+              </p>
+              <p>
+                <label for="color" class="colocar_color">Color
+                <span class="obligatorio">*</span>
+                </label>
+                <input type="colorv" name="introducir_color" id="color" required="obligatorio" placeholder="Color de vehículo">
+              </p>
+              <p>
+                <label for="matricula" class="colocar_matricula">Matricula
+                <span class="obligatorio">*</span>
+                </label>
+                <input type="matricula" name="introducir_matricula" id="matricula" required="obligatorio" placeholder="Matricula del vehículo">
+              </p>
+              <p>
+                <label for="serial_m" class="colocar_serial_m">Serial de Motor
+                <span class="obligatorio">*</span>
+                </label>
+                <input type="serial_m" name="introducir_serial_m" id="serial_m" required="obligatorio" placeholder="Serial de Motor">
+              </p>
+              <p>
+                <label for="serial_c" class="colocar_serial_c">Serial de Carrosería
+                <span class="obligatorio">*</span>
+                </label>
+                <input type="serial_c" name="introducir_serial_c" id="serial_c" required="obligatorio" placeholder="Serial de Carrosería">
+              </p>             
+              <p>
+                <label for="precio" class="colocar_precio">Precio $
+                <span class="obligatorio">*</span>
+                </label>
+                <input type="number" id="precio" name="introducir_precio"
+                       value="0" min="100000" max="50000000"
+                       required="obligatorio">
+              </p>
+              <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+              <p class="aviso">
+                <span class="obligatorio"> * </span>los campos son obligatorios.
+              </p>
+          </form>
+        </div>
+      </div>
+      </div>
+  </body>
+</html>

@@ -1,4 +1,9 @@
 import numpy as np #estamos importando la librería
+
+def promediar(vector_entrada):
+    vector_promedio = vector_entrada.mean(axis=0)
+    print(vector_promedio)
+
 semanas = 2
 dias = 4
 nombre_dia = ["Lunes","Martes","Miercoles","Jueves"]
@@ -13,6 +18,5 @@ for semana in range(semanas):
 
 print(vector_semana)
 
-vector_promedio = vector_semana.mean(axis=0)
+promediar(vector_semana)
 
-print(vector_promedio)
