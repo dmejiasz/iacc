@@ -9,7 +9,4 @@ cursor1.execute("show databases")
 for base in cursor1:
     print(base)
 
-cursor1.excecute("select * from concesionario")
-for base in cursor1:
-    print(base)
 db.close()
